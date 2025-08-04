@@ -20,7 +20,7 @@ describe('CartService', () => {
 
     it('should throw error for insufficient stock', async () => {
       const cartData: AddToCartRequest = {
-        productId: 1,
+        productId: 5,
         quantity: 1000
       };
 
