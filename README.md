@@ -119,7 +119,7 @@ GET /api/health
 
 #### Get All Products
 ```http
-GET /api/products?page=1&limit=10
+GET /api/products
 ```
 
 #### Get Product by ID
@@ -347,27 +347,6 @@ Common error scenarios:
 - **Custom metrics and events** for business insights
 - **Performance monitoring** with automatic instrumentation
 
-## 🔮 Future Enhancements
-
-- [ ] User authentication and authorization
-- [ ] Multi-user cart support
-- [ ] Order management system
-- [ ] Payment integration
-- [ ] Product search and filtering
-- [ ] Image upload for products
-- [ ] Email notifications
-- [ ] API documentation with Swagger
-- [ ] Docker containerization
-- [ ] CI/CD pipeline
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Run the test suite
-6. Submit a pull request
 
 ## 📄 License
 
@@ -375,4 +354,4 @@ This project is licensed under the MIT License.
 
 ---
 
-**Built with ❤️ using Node.js, TypeScript, and MySQL** 
+**Built with ❤️ by [Johnmicheal](https://johnmicheal.xyz) for Paystack Future Stacks** 
